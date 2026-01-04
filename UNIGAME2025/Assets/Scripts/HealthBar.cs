@@ -1,44 +1,29 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    private float maxhealth = 100;
-    private float currenthealth;
     [SerializeField] private Image healthBarFill;
     [SerializeField] private TextMeshProUGUI healthText;
     [SerializeField] private Gradient colourGradient;
+    [SerializeField] private Health playerHealth;
 
-
-    void Start()
+    private void Start()
     {
-        currenthealth = maxhealth;
+        UpdateUI();
     }
 
-    public void UpdateHealth(float amount)
+    private void Update()
     {
-        currenthealth += amount;
-        currenthealth = Mathf.Clamp(currenthealth, 0f, maxhealth);
-        healthText.text = "Health: " + currenthealth;
-        UpdateHealthBar();
+        UpdateUI();
     }
 
-    public void UpdateHealthBar()
+    void UpdateUI()
     {
-        float targetFillAmount = currenthealth / maxhealth;
-        healthBarFill.fillAmount = targetFillAmount;
-        healthBarFill.color = colourGradient.Evaluate(targetFillAmount);
-
-        if (currenthealth <= 0)
-        {
-            DeathScene();
-        }
-    }
-
-    void DeathScene()
-    {
-    SceneManager.LoadScene("LoseScreen");
+        float fill = playerHealth.CurrentHealth / playerHealth.maxHealth;
+        healthBarFill.fillAmount = fill;
+        healthBarFill.color = colourGradient.Evaluate(fill);
+        healthText.text = "Health: " + playerHealth.CurrentHealth;
     }
 }

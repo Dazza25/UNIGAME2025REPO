@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: df67dfe8abfb8a6489e12be255d7a451
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2252432996540875666
+    second: Alien Guy - IdleBlink_0
+  - first:
+      213: -4238485099846752369
+    second: Alien Guy - IdleBlink_1
+  - first:
+      213: 8774332522309181006
+    second: Alien Guy - IdleBlink_2
+  - first:
+      213: -7700851505581973501
+    second: Alien Guy - IdleBlink_3
+  - first:
+      213: -3166226785261664698
+    second: Alien Guy - IdleBlink_4
+  - first:
+      213: 1290488022477132974
+    second: Alien Guy - IdleBlink_5
+  - first:
+      213: 6459457664629106547
+    second: Alien Guy - IdleBlink_6
+  - first:
+      213: 6495453323387389157
+    second: Alien Guy - IdleBlink_7
+  - first:
+      213: 5942340481269513322
+    second: Alien Guy - IdleBlink_8
+  - first:
+      213: -7356216723629432901
+    second: Alien Guy - IdleBlink_9
+  - first:
+      213: 5355816430356391678
+    second: Alien Guy - IdleBlink_10
+  - first:
+      213: 4743157241102796575
+    second: Alien Guy - IdleBlink_11
+  - first:
+      213: -5618225982926391644
+    second: Alien Guy - IdleBlink_12
+  - first:
+      213: 4470002023938836349
+    second: Alien Guy - IdleBlink_13
+  - first:
+      213: -1951787404619201802
+    second: Alien Guy - IdleBlink_14
+  - first:
+      213: -406316682173811430
+    second: Alien Guy - IdleBlink_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 99
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6cffc0af10cdb0e0800000000000000
+      internalID: -2252432996540875666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 99
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8729d51240ed25c0800000000000000
+      internalID: -4238485099846752369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 99
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e556dc0f0b4c970800000000000000
+      internalID: 8774332522309181006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 99
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30021c54b54112590800000000000000
+      internalID: -7700851505581973501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 67
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646c622a38d4f04d0800000000000000
+      internalID: -3166226785261664698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 67
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea455a6e40cb8e110800000000000000
+      internalID: 1290488022477132974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 67
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37764e5b58a94a950800000000000000
+      internalID: 6459457664629106547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 67
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4c2ab126c742a50800000000000000
+      internalID: 6495453323387389157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 35
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c3e701f2f677250800000000000000
+      internalID: 5942340481269513322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 35
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf97416dd779e990800000000000000
+      internalID: -7356216723629432901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 35
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6e795caaea35a40800000000000000
+      internalID: 5355816430356391678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 35
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1701c5616413d140800000000000000
+      internalID: 4743157241102796575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a67dc33c3d0802b0800000000000000
+      internalID: -5618225982926391644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77c62e5823a80e30800000000000000
+      internalID: 4470002023938836349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 3
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2479e42bbd9e4e0800000000000000
+      internalID: -1951787404619201802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Guy - IdleBlink_15
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 3
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15f6bc51297c5af0800000000000000
+      internalID: -406316682173811430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Alien Guy - IdleBlink_0: -2252432996540875666
+      Alien Guy - IdleBlink_1: -4238485099846752369
+      Alien Guy - IdleBlink_10: 5355816430356391678
+      Alien Guy - IdleBlink_11: 4743157241102796575
+      Alien Guy - IdleBlink_12: -5618225982926391644
+      Alien Guy - IdleBlink_13: 4470002023938836349
+      Alien Guy - IdleBlink_14: -1951787404619201802
+      Alien Guy - IdleBlink_15: -406316682173811430
+      Alien Guy - IdleBlink_2: 8774332522309181006
+      Alien Guy - IdleBlink_3: -7700851505581973501
+      Alien Guy - IdleBlink_4: -3166226785261664698
+      Alien Guy - IdleBlink_5: 1290488022477132974
+      Alien Guy - IdleBlink_6: 6459457664629106547
+      Alien Guy - IdleBlink_7: 6495453323387389157
+      Alien Guy - IdleBlink_8: 5942340481269513322
+      Alien Guy - IdleBlink_9: -7356216723629432901
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

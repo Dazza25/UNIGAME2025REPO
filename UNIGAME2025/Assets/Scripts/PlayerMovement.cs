@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform Groundcheck;
     [SerializeField] private LayerMask groundlayer;
+    [SerializeField] private Animator animator;
 
     // Update is called once per frame
     void Update()
@@ -28,6 +29,18 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Flip();
+
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
+        {
+            animator.SetBool("isRunning", true);
+            //Debug.Log("true");
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
+            //Debug.Log("false");
+        }
+
     }
 
     private void FixedUpdate()

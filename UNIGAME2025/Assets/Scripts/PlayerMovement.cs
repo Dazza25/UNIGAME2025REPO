@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     private float jumpingPower = 16f;
     private bool isfacingRight = true;
 
+    public CollectableManager CollectableManager;
+
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform Groundcheck;
     [SerializeField] private LayerMask groundlayer;
@@ -61,6 +63,15 @@ public class PlayerMovement : MonoBehaviour
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Collectable"))
+        {
+            Destroy(other.gameObject);
+            CollectableManager.collectableCount++;
         }
     }
 }
